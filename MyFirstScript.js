@@ -1,3 +1,5 @@
-const fs = require("fs")
+const sum = require("./utils")
 
-fs.writeFileSync("fileToCreate", "File create by Node!")
+const result = sum(1, 3)
+
+console.log(result)
